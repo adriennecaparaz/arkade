@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Press+Start+2P&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: auto;
+    background-color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+
+main {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-height: -webkit-fill-available;
+    align-items: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+/* top nav */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 75vw;
+    height: max-content;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+
+.nav a, .footer a {
+    margin: 0 15px 0 0;
+}
+
+.nav a:last-of-type, .footer a:last-of-type {
+    margin: 0;
+}
+
+.nav a, .footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+/* stages */
+
+#stage-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.stage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.stage a {
+    font-size: 14px;
+    padding: 2px;
+}
+
+.stage-thumb img {
+    width: 300px;
+}
