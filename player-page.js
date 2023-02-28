@@ -28,7 +28,7 @@ $.getJSON("https://sheets.googleapis.com/v4/spreadsheets/1oOnMO6otmoFJgK6KGX9XFr
 
     document.getElementById('stats').innerHTML += ('<span class="quick-facts">' + pronouns + ', ☀ ' + zodiac + ', ' + mbti + '</span><br><strong>ULTS:</strong> ' + ults);
 
-    if (ig != '') {
+    if (ig != undefined) {
         document.getElementById('stats').innerHTML += ('<br><strong>INSTAGRAM: </strong><a href="https://www.instagram.com/' + ig + '">@' + ig + '</a>');
     }
 });
