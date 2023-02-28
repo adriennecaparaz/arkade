@@ -121,7 +121,19 @@ h1 {
     border: 7px #fff solid;
 }
 
-/* stages */
+@media screen and (max-width: 480px) {
+    .player-info-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .player-info-container h1 {
+        text-align: center;
+    }
+    #player-icon {
+        margin-bottom: 25px;
+        margin-right: 0;
+    }
+}
 
 /* stages */
 
