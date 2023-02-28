@@ -92,6 +92,7 @@ h1 {
 }
 
 .player-img img {
+    box-sizing: border-box;
     width: 180px;
     border-radius: 50%;
     border: 7px #fff solid;
