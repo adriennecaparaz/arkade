@@ -26,9 +26,9 @@ a {
 
 h1 {
     font-family: 'Press Start 2P', monospace;
-    font-size: 22px;
+    font-size: 24px;
     text-transform: uppercase;
-    margin: 20px;
+    margin: 0 0 20px 0;
     text-align: center;
 }
 
@@ -56,43 +56,96 @@ h1 {
     font-size: 24px;
 }
 
-/* players */
+/* span styling */
 
-#player-container {
+.angel {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FE4540;
+}
+
+.steph-t {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4756FF;
+}
+
+.steph-m {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FEA625;
+}
+
+.dri {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #18DAB7;
+}
+
+.quick-facts {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#stats {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#stats a {
+    text-decoration: underline;
+}
+
+/* player */
+
+.player-info-container {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+}
+
+.player-info-container h1 {
+    text-align: left;
+}
+
+#player-icon {
+    box-sizing: border-box;
+    width: 200px;
+    margin-right: 25px;
+}
+
+#player-icon img {
+    box-sizing: border-box;
+    width: 200px;
+    border-radius: 50%;
+    border: 7px #fff solid;
+}
+
+/* stages */
+
+/* stages */
+
+#stage-container {
     width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding-bottom: 25px;
 }
 
-.player {
+.stage {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 15px 20px;
+    margin: 10px;
 }
 
-.player-name {
-    margin-top: 10px;
-}
-
-.player-name a {
-    font-family: 'Press Start 2P', monospace;
+.stage a {
     font-size: 14px;
-    text-transform: uppercase;
-    text-align: center;
+    padding: 2px;
 }
 
-.player-img {
-    box-sizing: border-box;
-    width: 180px;
-}
-
-.player-img img {
-    width: 180px;
-    border-radius: 50%;
-    border: 7px #fff solid;
+.stage-thumb img {
+    width: 300px;
 }
