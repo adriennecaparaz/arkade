@@ -27,12 +27,26 @@ main {
     margin-bottom: 15px;
 }
 
+.arkade {
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 36px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #FE4540 0%, #FEA625 100%);
+    padding: 15px 30px 10px 40px;
+    border-radius: 10px;
+    box-shadow: 0rem 0rem 0.625rem 0rem rgb(254 115 55 / 69%);
+}
+
 /* arcade machine */ 
 .top-piece {
     width: 400px;
     height: 100px;
     background-color: #191919;
     border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .top-shadow {
