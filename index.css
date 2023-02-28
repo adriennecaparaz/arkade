@@ -20,6 +20,11 @@ main {
     padding: 20px;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .hello {
     font-family: 'Press Start 2P', monospace;
     font-size: 22px;
@@ -77,6 +82,25 @@ main {
     height: 150px;
     background-color: #191919;
     border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-piece a {
+    text-align: center;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 12px 0px 10px 0px;
+    width: 300px;
+    border-radius: 50px;
+    border: 3px #fff solid;
+}
+
+.bottom-piece a:first-of-type {
+    margin-bottom: 10px;
 }
 
 /* top nav */
