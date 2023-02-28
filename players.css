@@ -15,7 +15,6 @@ main {
     flex-direction: column;
     height: 100vh;
     max-height: -webkit-fill-available;
-    justify-content: center;
     align-items: center;
     padding: 20px;
 }
@@ -25,19 +24,21 @@ a {
     color: #fff;
 }
 
-.hello {
+h1 {
     font-family: 'Press Start 2P', monospace;
     font-size: 22px;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    margin: 20px;
+    text-align: center;
 }
 
 /* top nav */
 .nav {
     display: flex;
     justify-content: space-between;
-    width: 30vw;
+    width: 75vw;
     height: max-content;
+    padding-top: 10px;
     margin-bottom: 15px;
 }
 
@@ -53,4 +54,44 @@ a {
     text-decoration: none;
     color: #fff;
     font-size: 24px;
+}
+
+/* stages */
+
+#player-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 25px;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 20px;
+}
+
+.player-name {
+    margin-top: 10px;
+}
+
+.player-name a {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.player-img {
+    box-sizing: border-box;
+    width: 180px;
+}
+
+.player-img img {
+    width: 180px;
+    border-radius: 50%;
+    border: 5px #fff solid;
 }
