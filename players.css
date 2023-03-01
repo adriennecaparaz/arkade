@@ -97,3 +97,23 @@ h1 {
     border-radius: 50%;
     border: 7px #fff solid;
 }
+
+@media screen and (max-width: 540px) {
+    .player {
+        margin: 10px 15px;
+    }
+
+    .player-name a {
+        font-size: 12px;
+    }
+    
+    .player-img {
+        width: 120px;
+    }
+    
+    .player-img img {
+        width: 120px;
+        border-radius: 50%;
+        border: 7px #fff solid;
+    }
+}
