@@ -43,7 +43,7 @@ a {
     box-shadow: 0rem 0rem 0.625rem 0rem rgb(254 115 55 / 69%);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 680px) {
     .arkade {
         font-size: 28px;
     }
@@ -120,7 +120,7 @@ a {
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 680px) {
     .screen-piece {
         width: 95%;
         height: 175px;
