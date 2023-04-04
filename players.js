@@ -4,6 +4,6 @@ $.getJSON("https://sheets.googleapis.com/v4/spreadsheets/1oOnMO6otmoFJgK6KGX9XFr
         let url = data['values'][i][1];
         let icon = data['values'][i][4];
 
-        document.getElementById('player-container').innerHTML += ('<div class="player"><div class="player-img"><a href="./players/' + url + '.html" title="' + name + '"><img src="' + icon + '"></a></div><div class="player-name"><a href="./players/' + url + '.html" title="' + name + '">' + name + '</a></div>');
+        document.getElementById('player-container').innerHTML += ('<div class="player"><div class="player-img"><a href="./players/' + url + '" title="' + name + '"><img src="' + icon + '"></a></div><div class="player-name"><a href="./players/' + url + '" title="' + name + '">' + name + '</a></div>');
     }
 });
