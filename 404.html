@@ -4,16 +4,113 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="let's play!">
-        <link rel="stylesheet" type="text/css" href="index.css">
         <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
         <script src="https://kit.fontawesome.com/6a601f53bb.js" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
         <title>ARKADE: Page Not Found</title>
 
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Press+Start+2P&display=swap');
+
+            body {
+                box-sizing: border-box;
+                margin: auto;
+                background-color: #000;
+                font-family: 'Poppins', sans-serif;
+                font-size: 12px;
+                color: #fff;
+            }
+
+            main {
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                height: 100vh;
+                max-height: -webkit-fill-available;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+            }
+
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            .error-title {
+                box-sizing: border-box;
+                font-family: 'Press Start 2P', monospace;
+                font-size: 24px;
+                text-align: center;
+                text-transform: uppercase;
+                background: linear-gradient(45deg, #FE4540 0%, #FEA625 100%);
+                padding: 15px 30px 10px 40px;
+                border-radius: 10px;
+                box-shadow: 0rem 0rem 0.625rem 0rem rgb(254 115 55 / 69%);
+            }
+
+            .arkade-container {
+                box-sizing: border-box;
+                min-width: 300px;
+                width: 60%;
+                max-width: 400px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .error-links {
+                margin-top: 15px;
+                width: 100%;
+                height: 150px;
+                border-radius: 0 0 10px 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .bottom-piece a, .error-links a {
+                text-align: center;
+                font-family: 'Press Start 2P', monospace;
+                font-size: 18px;
+                text-transform: uppercase;
+                padding: 12px 0px 10px 0px;
+                width: 300px;
+                border-radius: 50px;
+                border: 3px #fff solid;
+            }
+
+            .bottom-piece a:first-of-type, .error-links a:first-of-type {
+                margin-bottom: 10px;
+            }
+
+            .footer a {
+                margin: 0 15px 0 0;
+            }
+
+            .footer a:last-of-type {
+                margin: 0;
+            }
+
+            .footer a {
+                text-decoration: none;
+                color: #fff;
+                font-size: 24px;
+            }
+
+            .footer {
+                display: flex;
+                justify-content: center;
+                margin-top: 15px;
+            }
+
+        </style>
     </head>
     <body>
         <main>
-            <div class="arkade" style="text-align:center; font-size: 24px;">page not found</div>
+            <div class="error-title">page not found</div>
             <div class="arkade-container">
                 <div class="error-links">
                     <a href="./players" title="player select">player select</a>
