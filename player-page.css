@@ -113,7 +113,6 @@ h1 {
     width: 200px;
     height: 200px;
     margin-right: 25px;
-    background-color: #eeeeee;
 }
 
 #player-icon img {
@@ -122,6 +121,7 @@ h1 {
     height: 200px;
     border-radius: 50%;
     border: 7px #fff solid;
+    background-color: #eeeeee;
 }
 
 @media screen and (max-width: 480px) {
